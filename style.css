@@ -1,0 +1,56 @@
+table, tr, th, td{
+    border-collapse: collapse;
+    padding: 7px;
+    margin: 10px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    text-align: center;
+    padding: 14px;
+    border-spacing: 8px;
+    border: 2.30px rgb(0, 0, 0) solid;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: italic;
+    
+}
+tr{
+    border: 2.30px black solid;
+    border-spacing: 8px;
+}
+th{
+    border: 2.30px black solid;
+    border-spacing: 8px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.not{
+    background-color: #fda7b485;
+}
+.not:after{
+    content: " \274C";
+    
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+.cross{
+   font-style: italic;
+   
+}
+.cell{
+    background-color: #c5e1a5;
+}
+
+#thcol{
+    background-color: #616161;
+    color: #eeeeee;
+}
+h1{
+    text-align: center;
+}
